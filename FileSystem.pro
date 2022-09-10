@@ -3,6 +3,7 @@ HEADERS += \
     Grammar/scanner.h \
     commands.h \
     node.h \
+    report.h \
     structures.h
 
 SOURCES += \
@@ -11,4 +12,5 @@ SOURCES += \
     commands.cpp \
     main.cpp \
     node.cpp \
+    report.cpp \
     structures.cpp
